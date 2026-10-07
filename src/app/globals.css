@@ -1,0 +1,198 @@
+/* Design tokens (@theme) and shared component classes. Fonts: Geist Sans + Geist Mono. */
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f4f0e8; /* page background, warm off-white */
+  --color-paper-2: #ebe5d9; /* slightly darker paper for wells */
+  --color-card: #fbf9f4; /* cards */
+  --color-ink: #161411; /* main text + dark panels */
+  --color-ink-2: #3e3a34; /* secondary text */
+  --color-muted: #7c7569; /* captions */
+  --color-line: #dcd4c6; /* hairlines */
+  --color-forest: #1f4a39; /* brand accent */
+  --color-forest-2: #2d6a52;
+  --color-mint: #cfe3d6; /* soft accent fill */
+  --color-go: #2f7a55; /* good */
+  --color-caution: #b07a1e; /* careful */
+  --color-warn: #b4452f; /* warning */
+  --color-sky: #3d6e9e; /* rain / water */
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --font-display: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+
+  --animate-rise: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-marquee: marquee 40s linear infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+@keyframes shimmer {
+  0% { transform: translateX(-120%); }
+  55%, 100% { transform: translateX(120%); }
+}
+@keyframes halo {
+  0% { box-shadow: 0 0 0 0 rgb(31 74 57 / 0.35); }
+  70%, 100% { box-shadow: 0 0 0 16px rgb(31 74 57 / 0); }
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  /* Subtle paper grain (inline SVG noise). */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.09 0 0 0 0 0.08 0 0 0 0 0.06 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-mint);
+  color: var(--color-ink);
+}
+
+@layer components {
+  .font-display {
+    font-weight: 560;
+    letter-spacing: -0.035em;
+  }
+  .font-display em, h1 em, h2 em { font-style: normal; }
+  /* Small uppercase mono label above headings. */
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+  .card {
+    background: var(--color-card);
+    border: 1px solid var(--color-line);
+    border-radius: 22px;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 46px;
+    padding: 0 1.25rem;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: transform 0.15s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    white-space: nowrap;
+  }
+  .btn:active { transform: scale(0.98); }
+  .btn:disabled { opacity: 0.4; pointer-events: none; }
+  .btn-ink { background: var(--color-ink); color: var(--color-paper); }
+  .btn-ink:hover { background: var(--color-forest); }
+  /* Homepage primary CTA: shimmer sweep plus a pulsing ring. */
+  .btn-cta {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    height: 64px;
+    padding: 0 0.5rem 0 2rem;
+    gap: 1.25rem;
+    font-size: 18px;
+    background: var(--color-ink);
+    color: var(--color-paper);
+    animation: halo 2.6s ease-out infinite;
+  }
+  .btn-cta::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(105deg, transparent 30%, rgb(255 255 255 / 0.2) 50%, transparent 70%);
+    animation: shimmer 2.6s ease-in-out infinite;
+  }
+  .btn-cta:hover { background: var(--color-forest); }
+  .btn-cta .cta-arrow {
+    display: grid;
+    place-items: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 999px;
+    background: var(--color-paper);
+    color: var(--color-ink);
+    transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .btn-cta:hover .cta-arrow { transform: translateX(4px) rotate(-45deg); }
+  .btn-ghost { border: 1px solid var(--color-line); color: var(--color-ink); background: transparent; }
+  .btn-ghost:hover { border-color: var(--color-ink); }
+  .field {
+    width: 100%;
+    height: 52px;
+    padding: 0 1rem;
+    border-radius: 14px;
+    border: 1px solid var(--color-line);
+    background: var(--color-card);
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  .field:focus { border-color: var(--color-ink); box-shadow: 0 0 0 4px rgb(31 74 57 / 0.08); }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 42px;
+    padding: 0 1rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-line);
+    background: var(--color-card);
+    font-size: 15px;
+    transition: all 0.15s ease;
+    cursor: pointer;
+    user-select: none;
+  }
+  .chip:hover { border-color: var(--color-ink-2); }
+  .chip[aria-pressed="true"] { background: var(--color-ink); border-color: var(--color-ink); color: var(--color-paper); }
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease;
+  }
+  .link-underline:hover { background-size: 100% 1px; }
+}
+
+/* Native date inputs keep the browser picker. */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0.55;
+  cursor: pointer;
+}
+
+/* Print / Save as PDF: hide controls, keep cards whole. */
+@media print {
+  body { background: white; }
+  .no-print { display: none !important; }
+  .card, section { break-inside: avoid; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .btn-cta::before { display: none; }
+}

@@ -1,0 +1,517 @@
+{
+ "trip": {
+  "stops": [
+   {
+    "name": "Lisbon",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "admin": "Lisbon District",
+    "lat": 38.72509,
+    "lon": -9.1498,
+    "timezone": "Europe/Lisbon",
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-17"
+   },
+   {
+    "name": "Porto",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "admin": "Porto District",
+    "lat": 41.1485,
+    "lon": -8.61097,
+    "timezone": "Europe/Lisbon",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-20"
+   }
+  ],
+  "homeCity": "Mumbai",
+  "group": "couple",
+  "withKids": false,
+  "withSeniors": false,
+  "purpose": "culture",
+  "pace": "balanced",
+  "budget": "comfortable",
+  "interests": [
+   "food",
+   "history",
+   "architecture",
+   "photography"
+  ],
+  "concerns": [
+   "crowds",
+   "rain"
+  ],
+  "notes": "First time in Europe in autumn."
+ },
+ "facts": [
+  {
+   "stop": {
+    "name": "Lisbon",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "admin": "Lisbon District",
+    "lat": 38.72509,
+    "lon": -9.1498,
+    "timezone": "Europe/Lisbon",
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-17"
+   },
+   "weather": {
+    "mode": "forecast",
+    "forecast": [
+     {
+      "date": "2026-10-12",
+      "code": 3,
+      "tMax": 26.1,
+      "tMin": 16.2,
+      "rainChance": 0,
+      "rainMm": 0,
+      "uv": 5.05,
+      "windKmh": 11.1
+     },
+     {
+      "date": "2026-10-13",
+      "code": 1,
+      "tMax": 27.5,
+      "tMin": 18.1,
+      "rainChance": 2,
+      "rainMm": 0,
+      "uv": 4.95,
+      "windKmh": 13.4
+     },
+     {
+      "date": "2026-10-14",
+      "code": 0,
+      "tMax": 27.2,
+      "tMin": 18.3,
+      "rainChance": 4,
+      "rainMm": 0,
+      "uv": 4.9,
+      "windKmh": 12.1
+     },
+     {
+      "date": "2026-10-15",
+      "code": 3,
+      "tMax": 28.1,
+      "tMin": 18.7,
+      "rainChance": 4,
+      "rainMm": 0,
+      "uv": 4.85,
+      "windKmh": 12.7
+     },
+     {
+      "date": "2026-10-16",
+      "code": 3,
+      "tMax": 26.4,
+      "tMin": 19.8,
+      "rainChance": 10,
+      "rainMm": 0,
+      "uv": 4.65,
+      "windKmh": 13.9
+     },
+     {
+      "date": "2026-10-17",
+      "code": 1,
+      "tMax": 25,
+      "tMin": 18.3,
+      "rainChance": 7,
+      "rainMm": 0,
+      "uv": 4.7,
+      "windKmh": 12.5
+     }
+    ],
+    "tripTypical": {
+     "tMax": 26.4,
+     "tMin": 16.5,
+     "rainyDaysPct": 27,
+     "rainMm": 3.6
+    },
+    "months": [
+     {
+      "month": 1,
+      "tMax": 15.6,
+      "tMin": 8.3,
+      "rainyDaysPct": 25,
+      "comfort": 67
+     },
+     {
+      "month": 2,
+      "tMax": 17.3,
+      "tMin": 9.4,
+      "rainyDaysPct": 31,
+      "comfort": 71
+     },
+     {
+      "month": 3,
+      "tMax": 18.5,
+      "tMin": 10.1,
+      "rainyDaysPct": 37,
+      "comfort": 72
+     },
+     {
+      "month": 4,
+      "tMax": 21.5,
+      "tMin": 12.3,
+      "rainyDaysPct": 32,
+      "comfort": 81
+     },
+     {
+      "month": 5,
+      "tMax": 24.8,
+      "tMin": 14.5,
+      "rainyDaysPct": 13,
+      "comfort": 92
+     },
+     {
+      "month": 6,
+      "tMax": 27.5,
+      "tMin": 17,
+      "rainyDaysPct": 19,
+      "comfort": 83
+     },
+     {
+      "month": 7,
+      "tMax": 30.9,
+      "tMin": 18.3,
+      "rainyDaysPct": 1,
+      "comfort": 80
+     },
+     {
+      "month": 8,
+      "tMax": 30.9,
+      "tMin": 18.7,
+      "rainyDaysPct": 1,
+      "comfort": 80
+     },
+     {
+      "month": 9,
+      "tMax": 27.2,
+      "tMin": 17.3,
+      "rainyDaysPct": 19,
+      "comfort": 84
+     },
+     {
+      "month": 10,
+      "tMax": 25.2,
+      "tMin": 16.1,
+      "rainyDaysPct": 32,
+      "comfort": 81
+     },
+     {
+      "month": 11,
+      "tMax": 19,
+      "tMin": 11.9,
+      "rainyDaysPct": 31,
+      "comfort": 77
+     },
+     {
+      "month": 12,
+      "tMax": 16.4,
+      "tMin": 9.8,
+      "rainyDaysPct": 34,
+      "comfort": 65
+     }
+    ],
+    "bestMonths": [
+     5,
+     9,
+     6
+    ],
+    "tripMonthRank": 5,
+    "yearsUsed": "2021–2025"
+   },
+   "news": [
+    {
+     "id": "N1",
+     "title": "Lisbon after dark",
+     "source": "theportugalnews.com",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zOXZnNl9oTTQtYVAtYnRYWXZZTTNDMnltc2dmSmZyV1BEOEhVQ2JOSUEyd1N4VU1Vek1HVktNS1paNUdzUDNsQ2JVZWJmWTR2WkpiMkd3Q19ZS1ZHX19qeUJnSzRldEFIMGZ6ZU0yaXA2ajJnaGpfUHdzWVlVZw?oc=5",
+     "date": "2026-10-04T19:44:40.000Z",
+     "stop": "Lisbon"
+    },
+    {
+     "id": "N2",
+     "title": "Lisbon in the Fall: A City Escape with Wine Country on the Doorstep",
+     "source": "drifttravel.com",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HN0ZTRjhDclBnTVJTdUxtZEc1X0VGZTJ6SXRLeWZCeTlibFFMLXQ5MEQyOW5tWXlsbGlvNnhLXzV3dVh4QndrZ0hOeEJWLTNuZkV1d0hMQWhnREVLYlM5REhiVGxGaUdfUUHSAW9BVV95cUxQNFVlOEw4eUN4aVdyN3BKYmM1cXVWT19IWVh5TWdnQXFjNFA4a2ozeEdKSnZQUlI3Mmwxc1piSHAzWVpTVEpWTmQ2SEphZEduRlk4STZvOVhRZTJVMWdmWFh2U195SVAtQ2tOZzJDbmM?oc=5",
+     "date": "2026-10-04T06:31:08.000Z",
+     "stop": "Lisbon"
+    },
+    {
+     "id": "N3",
+     "title": "A love letter to a changing Lisbon",
+     "source": "theportugalnews.com",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUW1Pa2VhR1VZWHZSNlc5N0RxZjJLSGtiT3hsbG5fSngycFpSbzdKM05hczZYc3Z3Qnk2OWw3eGtLZDJ2X1d3VGVwRGU1dzVIcE9wZ3FmNWlhUkh4dGoxeGFUZnNERFR2UHBhaVFvaFZiNjRwcE5UUGZRS2k1ckFxbGhER1pIZUt6b0x3VUtLYnk4RzU4?oc=5",
+     "date": "2026-10-04T04:50:59.000Z",
+     "stop": "Lisbon"
+    },
+    {
+     "id": "N4",
+     "title": "LIS - Lisbon Airport",
+     "source": "simpleflying.com",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jdEpRN0xvRHI1ZllfRWFtcWlPYWpQYUpkbWlFX2gzUm9YejMwLW1VWWYzc3dpS092bmk1T2YxbnRnbENGU3pvS2hRWEo1T0E?oc=5",
+     "date": "2026-10-04T00:00:00.000Z",
+     "stop": "Lisbon"
+    },
+    {
+     "id": "N5",
+     "title": "SBC Summit inks long-term deal to remain in Lisbon until 2030",
+     "source": "Inside Asian Gaming",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaWNVaE5BTVdPeU1tSGpGaUtxeUpJTUN5eXI5SW1TbnAtQ3NfOXNIdmw3eURndU1lSmpFVkFqTFJZaVMtUHA3QzRkZUNrbWRXZnNFS3hOWkFwQ1Q0UWhRdFZwdjVJNlRONHdqWjNyeWhyTFBqOE9LRm4xWWxoTzlwMm9nUnpOOWx1WGJDSXNXdUxGRjNWMnc?oc=5",
+     "date": "2026-10-03T15:07:41.000Z",
+     "stop": "Lisbon"
+    },
+    {
+     "id": "N6",
+     "title": "easyJet Cancels 443 Flights as Portugal Cabin Crew Walk Out",
+     "source": "Aviation A2Z",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPU1RsU2FTa2ZQa3JjV0pEZnNScWZOeTl2S1hFMlNGQm1aNS0tajhpX2ZEVzRhdXpCTlVWM2FzTUxCd0taSU5TZHRrbjNRMG1TaEo5dmhXaXF2QkExWUlhS1ItbHdZZE5iRGhUZFd4NzRQaUFxUkQ0eFRBYXNSRlhoU2dwV0lhb0Y5WHNoY19VN3N0MWJvWGRwU2dJeV8zdDVaZVF3a1VyXzA?oc=5",
+     "date": "2026-10-03T11:35:01.000Z",
+     "stop": "Lisbon"
+    },
+    {
+     "id": "N7",
+     "title": "Discover Lisbon’s Best Kept Secrets: Exclusive Experiences with Andaz Lisbon Not to be Missed",
+     "source": "Luxury Travel Magazine",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUjgzRkpUZnh1U0hxZnpFeVN0TEdtdEZoQVNRZ0xfck13Tk40LVZ2U2I0RVgyd1VsWFNRbnQ1R2dPczV1OVhldTNiUTE5bUdnM19QRmtBUUZqYmlxTW12aE5aNXpsWGpLSmFoT09Pczh4RWR1UkU1bjNLS2xsSG5uV1hMbENUUGFEVEtTQkRYSkJsWDlFY0ppaEZHWWJaV3U2aUd5a1Z5eXJsd1FCbDdKOTl2cG9BTEpNb3A5SEt4ZThYVmRkbFFlUzVNY1p3UWllWExaNm1KOGRUQQ?oc=5",
+     "date": "2026-10-03T01:43:40.000Z",
+     "stop": "Lisbon"
+    }
+   ],
+   "guide": {
+    "url": "https://en.wikivoyage.org/wiki/Lisbon",
+    "sections": {
+     "Understand": "Lisbon is built on seven hills, so getting around Lisbon can be a workout. Many slopes and few really flat areas is one of Lisbon's trademarks. This is also a city of enchanting contrasts: The elegant squares, broad avenues, monumental buildings and rectangular layout of the lower areas quickly gives way to the hilly, narrow, winding, unpredictable and cramped streets of districts such as Alfama and Bairro Alto. The elegant dining rooms and smart rooftop bars of expensive hotels seems like a…",
+     "Climate": "Lisbon enjoys a Subtropical-Mediterranean climate, with mild winters and very warm summers. Strongly influenced by the Gulf Stream it is one of the mildest climates in Europe. Among all the metropolises in Europe, here are amongst the warmest winters on the continent, with average temperatures above 15.2°C (59.4°F) during the day and 8.9°C (48.0°F) at night in the period from December to February. Snow and frost are nearly unknown. The typical summer's season lasts about 6 months, from May to October, with an average temperature of 25°C (77°F) during the day and 16.2°C (61.2°F) at night,…",
+     "See": "Individual listings can be found in Lisbon's district articles Lisbon is a city on the water—the River Tagus (Rio Tejo)—built on seven hills that are traversed by trams. This has led to comparisons with San Francisco. To provide access from the southern suburbs, Lisbon has two spectacular bridges. The 25th of April Bridge (Ponte 25 de Abril) combines the design of the San Francisco–Oakland Bay Bridge with the color of the Golden Gate Bridge, and it's often mistaken for the latter. The Vasco da Gama Bridge (Ponte Vasco da Gama), Europe's longest, was built in the 1990s for Expo '98. One of…",
+     "Do": "Individual listings can be found in Lisbon's district articles Go out at night to the central Bairro Alto, or 'High Neighbourhood'. Just up the hill from Chiado, this is the place to go out in town. In the early evening, go to a fado-themed restaurant near the Praca Camoes, and head upwards as the evening goes on. If you're in Lisbon on the night preceding a Feriado or public holiday, you have to check this out. Tiny little streets which are empty in the daytime become crammed walkways which are difficult to get through. For more of a clubbing or disco experience, try the Docas district along…",
+     "Eat": "Individual listings can be found in Lisbon's district articles Portuguese dining rituals tend to follow the Mediterranean siesta body clock. Most restaurants are very small, family-run and generally inexpensive. Some of them have a sheet on the door with the pratos do dia (dishes of the day) written on it – these dishes are usually cheaper and fresher than the rest of menu there, and unless…",
+     "Stay safe": "Lisbon is generally safe, but use common sense precautions, especially at train stations and on public transport. Some areas are best avoided late at night because of the risk of mugging: Bairro Alto, the alleys, Cais do Sodre. Some night clubs in Lisboa have a poor reputation."
+    }
+   },
+   "advisory": {
+    "country": "Portugal",
+    "url": "https://www.gov.uk/foreign-travel-advice/portugal",
+    "alerts": [],
+    "updated": "2026-08-11T10:21:44+01:00",
+    "summary": "Warnings and insurance: This travel advice also covers Madeira, Porto Santo and the Azores. \nWildfires in Portugal\nThere is a high risk of wildfires during the summer season from April to October. For advice, visit the wildfires section on the Safety and security page .\n\nSafety and security: Terrorism\n \nFind out how to reduce your risk from terrorism while abroad .\nTerrorism in Portugal\nTerrorist attacks in Portugal cannot be ruled out.\nPolitical Situation\nPolitical Demonstrations \nDemonstrations, political gatherings and marches are not uncommon, particularly in cities. While most demonstrations are peaceful, if you are near areas where they are taking place, you should remain aware of what is happening around you and follow the advice of the police and local authorities.\nStrike action\nStrike action that causes travel disruption, including at airports, can take place. Strikes can be announced at short notice. For updates on any disruption that may affect your travel plans, check the local news and follow the advice of your travel provider or tour operator.\nCrime\nProtecting yourself and your belongings\nBe alert to the risk of street crime. Take care on public transport and at crowded bus and tram stops. Thieves use distraction techniques and often work in teams. Look after your passport, money and personal belongings when travelling, checking in luggage at the airport or arranging car hire.\nDo not carry all your valuables in one place. Keep a copy of the photo pages…"
+   },
+   "problems": []
+  },
+  {
+   "stop": {
+    "name": "Porto",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "admin": "Porto District",
+    "lat": 41.1485,
+    "lon": -8.61097,
+    "timezone": "Europe/Lisbon",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-20"
+   },
+   "weather": {
+    "mode": "forecast",
+    "forecast": [
+     {
+      "date": "2026-10-17",
+      "code": 0,
+      "tMax": 26.3,
+      "tMin": 17.2,
+      "rainChance": 10,
+      "rainMm": 0,
+      "uv": 4.3,
+      "windKmh": 14.2
+     },
+     {
+      "date": "2026-10-18",
+      "code": 0,
+      "tMax": 27,
+      "tMin": 16.5,
+      "rainChance": 14,
+      "rainMm": 0,
+      "uv": 4.3,
+      "windKmh": 10.8
+     },
+     {
+      "date": "2026-10-19",
+      "code": 2,
+      "tMax": 22,
+      "tMin": 15.8,
+      "rainChance": 16,
+      "rainMm": 0,
+      "uv": 4.05,
+      "windKmh": 9
+     }
+    ],
+    "tripTypical": {
+     "tMax": 20.4,
+     "tMin": 15.5,
+     "rainyDaysPct": 75,
+     "rainMm": 12.8
+    },
+    "months": [
+     {
+      "month": 1,
+      "tMax": 13.9,
+      "tMin": 7.5,
+      "rainyDaysPct": 37,
+      "comfort": 53
+     },
+     {
+      "month": 2,
+      "tMax": 15.6,
+      "tMin": 8.5,
+      "rainyDaysPct": 36,
+      "comfort": 61
+     },
+     {
+      "month": 3,
+      "tMax": 16.2,
+      "tMin": 9,
+      "rainyDaysPct": 50,
+      "comfort": 55
+     },
+     {
+      "month": 4,
+      "tMax": 18.5,
+      "tMin": 10.9,
+      "rainyDaysPct": 34,
+      "comfort": 74
+     },
+     {
+      "month": 5,
+      "tMax": 20,
+      "tMin": 12.6,
+      "rainyDaysPct": 31,
+      "comfort": 81
+     },
+     {
+      "month": 6,
+      "tMax": 22.3,
+      "tMin": 15.4,
+      "rainyDaysPct": 27,
+      "comfort": 84
+     },
+     {
+      "month": 7,
+      "tMax": 24.7,
+      "tMin": 16.5,
+      "rainyDaysPct": 14,
+      "comfort": 92
+     },
+     {
+      "month": 8,
+      "tMax": 24.6,
+      "tMin": 16.6,
+      "rainyDaysPct": 5,
+      "comfort": 97
+     },
+     {
+      "month": 9,
+      "tMax": 22.8,
+      "tMin": 15.6,
+      "rainyDaysPct": 29,
+      "comfort": 83
+     },
+     {
+      "month": 10,
+      "tMax": 21.1,
+      "tMin": 14.6,
+      "rainyDaysPct": 47,
+      "comfort": 72
+     },
+     {
+      "month": 11,
+      "tMax": 17,
+      "tMin": 11,
+      "rainyDaysPct": 45,
+      "comfort": 61
+     },
+     {
+      "month": 12,
+      "tMax": 14.7,
+      "tMin": 8.8,
+      "rainyDaysPct": 50,
+      "comfort": 49
+     }
+    ],
+    "bestMonths": [
+     8,
+     7,
+     6
+    ],
+    "tripMonthRank": 7,
+    "yearsUsed": "2021–2025"
+   },
+   "news": [
+    {
+     "id": "N8",
+     "title": "“We don’t want mass tourism.”",
+     "source": "madeiraislandnews.com",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKQU9jTmt2NDBuYWlkckN0bDFEUGl0ZGNoY2pEUG5PR2hNS2RJT2V2Mk4wOVMzRG16WnNYNWFjS1JicVk1TmRoUk1lb0pfYk00Wk1QZ2lwTzV4ZHhvNGRpek9ubWxsWks5eUx1aXlBOXdJS2JEUXByUkhINjc?oc=5",
+     "date": "2026-10-04T17:58:34.000Z",
+     "stop": "Porto"
+    },
+    {
+     "id": "N9",
+     "title": "Porto moves tuk-tuk stops away from Ribeira on 1 October",
+     "source": "AD HOC NEWS",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc1oxdU1WVFFwRnRabnFEN0EzcUpNMGcwenBMVEVpUWNmS0JmcGp5ajg1cHFmUTY3eFIzRE9LTzBKRzVMMGEtcmVQdGNDeVdmV05WVXlXU3M5QUVNamxXcHJBTVdvSF8zdmhLRFExdFotRElGVEFTT0tGeXRaTXVHUTlyZXJPUnp1eHRkaWh0VHdjT3BmWm9KSFNxeFl4dEFrQXY3MFYxaTJJcGtGSXMtVnB3?oc=5",
+     "date": "2026-10-04T04:20:25.000Z",
+     "stop": "Porto"
+    },
+    {
+     "id": "N10",
+     "title": "Semester at Sea: Exploration and Education in Porto, Portugal",
+     "source": "The Pacifican",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV2RPeTNINWVkY0xMd2QzZl8xd0h2cC1aUEZreEt1b0VvemIzcU52QjljeVVucFA0X2dmZ2hicUNMLW9pdmxFeUNUSnNYU1BOaWFFbXlua1QxUVZtSTIzZUVUSWw0cFJsNjhIMEQ0YUlEa0FLMzRmWXRiYkxmSk1iYWRsWUFSQQ?oc=5",
+     "date": "2026-10-03T23:08:45.000Z",
+     "stop": "Porto"
+    },
+    {
+     "id": "N11",
+     "title": "Benin: CNIN opens three complaint points in Porto-Novo, Abomey, and Parakou",
+     "source": "beninwebtv.com",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcmo2TjV6VWIyUVpsVHYwanFCVjFVbnl2cjJ1REtCa2pxaVAzMTBqRGVOWU1HMUtQZHl0MW94dVFPSW92T1VCdUFQR1pLdDhraUlCOFZPZDNvZWNkcFF5MzhIUU55RUFORW16RmIxNWlCQVFrcUNiY3psZ2NST2pFd29PcU13LUhtRnpSdkJ4a1EzcmcwbDVlSlZPODNxZGFj?oc=5",
+     "date": "2026-10-03T15:49:16.000Z",
+     "stop": "Porto"
+    },
+    {
+     "id": "N12",
+     "title": "Porto mayor calls for ‘tougher approach’ to drug trafficking",
+     "source": "Portugal Resident",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMExXY09pb0diU0hFS0tpSGliaEFhY1NrcTBBeFFlQjdXMnVmdTA0TGVCelNHWGNqWHo0WTY0ejhydS1SOVpVYTI0TzNGclRWTnR4anRnbFc0MHp2Y0M3cmtUNjFsZnE5QXhOUUlDemkwR1NKVEE1QWhKTkZkQ1JEaEtaQXBSUQ?oc=5",
+     "date": "2026-10-02T16:43:06.000Z",
+     "stop": "Porto"
+    },
+    {
+     "id": "N13",
+     "title": "Summer isn’t just about the beach: a guide to some of the best outdoor swimming pools in Greater Porto (and beyond)",
+     "source": "Porto Secreto",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBrUHNSWF91ZE90TmJGZWI3S0xadkpabzM4MkRJbEF1N1NqMTg0VXJtdk1VR3A5akJYMWI1Y1prdWZaRWlzWVlPRVBpWGJVQ3BvdXR6UDZsYkVGQTJvcmI2Tk5B?oc=5",
+     "date": "2026-10-02T12:46:50.000Z",
+     "stop": "Porto"
+    }
+   ],
+   "guide": {
+    "url": "https://en.wikivoyage.org/wiki/Porto",
+    "sections": {
+     "Climate": "Porto has a semi-Mediterranean climate, although it's strongly affected by the Atlantic Ocean, which makes it cooler than other cities with this climate. Temperatures can rise as high as 40 °C in August during occasional heat waves. Winters are mild, rainy and humid, with occasional cold nights when temperatures can drop below 0 °C.",
+     "See": "Porto is a mysterious city that reveals its charm to the visitor through time. Take your time, wander through the mazes and alleys of the city. Take in the old, bohemian spirit of the city. Hike through the Ribeira and Foz do Douro regions (the latter, at sunset). Porto may not be in every tourist's Iberian Peninsula itinerary, but it's well worth a visit if you want to see a city that has changed economically, but that has kept its old traditions. If you want to visit several museums, consider the Porto Card which provides free access to several museums and further discounts, optionally also…",
+     "Do": "Douro river cruise. Take a cruise upriver (the cost starts at €15 (although they can be slightly cheaper if paired with a different activity) and takes about 50 minutes. Cruises run from 10:00 to 18:30, with sailings every 30 minutes for most operators. There are multiple river cruise operators and you can purchase a ticket from every tourist service and office in the Sao Bento area, or potentially from the wharf itself. Many of the cruises are themed around seeing the various bridges and river-adjacent facilities. You may also choose a day-long cruise starting at €70 to or from Régua, with…",
+     "Eat": "Porto has some of the finest restaurants in Portugal. It is said that if you like to eat, you should go to Porto because it's a place where you eat well in terms of quality and amount (even Lisbon citizens say that in Porto is where they eat the best food). The best restaurants of the city are mainly in Matosinhos near the beach, and the Porto de Leixões seaport but watch out for pricing, more…",
+     "Stay safe": "There may be pickpockets in heavily crowded areas and on public buses and trains; however, pickpocketing is not common in Porto. Travelling by bus or metro is generally safe and one of the best ways to go from a place to another. Porto is generally a safe place to be if you take normal precautions like walking in well-illuminated streets at night. One part of Porto, near the Tourist Information Office between the cathedral and the steps to the small church, often has drunk people that could cause you trouble. There's no reason for alarm because many of them are inoffensive, but it is best to use some caution, as you would elsewhere. If you take the main road from the bus station to the…"
+    }
+   },
+   "advisory": {
+    "country": "Portugal",
+    "url": "https://www.gov.uk/foreign-travel-advice/portugal",
+    "alerts": [],
+    "updated": "2026-08-11T10:21:44+01:00",
+    "summary": "Warnings and insurance: This travel advice also covers Madeira, Porto Santo and the Azores. \nWildfires in Portugal\nThere is a high risk of wildfires during the summer season from April to October. For advice, visit the wildfires section on the Safety and security page .\n\nSafety and security: Terrorism\n \nFind out how to reduce your risk from terrorism while abroad .\nTerrorism in Portugal\nTerrorist attacks in Portugal cannot be ruled out.\nPolitical Situation\nPolitical Demonstrations \nDemonstrations, political gatherings and marches are not uncommon, particularly in cities. While most demonstrations are peaceful, if you are near areas where they are taking place, you should remain aware of what is happening around you and follow the advice of the police and local authorities.\nStrike action\nStrike action that causes travel disruption, including at airports, can take place. Strikes can be announced at short notice. For updates on any disruption that may affect your travel plans, check the local news and follow the advice of your travel provider or tour operator.\nCrime\nProtecting yourself and your belongings\nBe alert to the risk of street crime. Take care on public transport and at crowded bus and tram stops. Thieves use distraction techniques and often work in teams. Look after your passport, money and personal belongings when travelling, checking in luggage at the airport or arranging car hire.\nDo not carry all your valuables in one place. Keep a copy of the photo pages…"
+   },
+   "problems": []
+  }
+ ]
+}
